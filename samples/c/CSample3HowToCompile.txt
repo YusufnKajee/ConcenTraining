@@ -1,0 +1,11 @@
+how to compile guide for c
+
+cl.exe
+
+open x64 Native Tools Command Prompt for VS 2017
+
+cd C:\Users\yusuf\OneDrive\Documents\TobiiConceptValidationTool-1.1.6\interaction_lib_sdk_windows_x64_dynamic_1.0.2.1
+
+cl.exe /EHsc /MD /I include samples\c\c_sample3.c /link /libpath:lib\x64 tobii_interaction_lib_c.lib tobii_stream_engine.lib
+
+c_sample3.exe
